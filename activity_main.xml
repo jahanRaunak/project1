@@ -1,0 +1,43 @@
+<LinearLayout
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/l1"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/iv1"
+        android:src="@drawable/homepageimage"/>
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:id="@+id/jobseeker"
+        android:background="@drawable/example"
+        android:text="@string/jobseeker"
+        android:onClick="JobSeeker"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:id="@+id/recruiter"
+        android:background="@drawable/example"
+        android:text="@string/recruiter"
+        android:onClick="Recruiter"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:id="@+id/exit"
+        android:background="@drawable/example"
+        android:text="@string/exit"
+        android:onClick="exit"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>

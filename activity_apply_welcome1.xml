@@ -1,0 +1,106 @@
+<LinearLayout
+    android:background="@drawable/img"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/l5"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<!--
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:text="Welcome"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#f00"
+        android:fontFamily="cursive"/>
+-->
+
+    <ImageView
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/aw_iv"
+        android:src="@drawable/aw_one_image"/>
+
+    <EditText
+        android:background="@drawable/edit_text_style"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aw1_name"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"/>
+
+    <EditText
+        android:background="@drawable/edit_text_style"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aw1_password"
+        android:ems="10"
+        android:paddingLeft="15dp"
+        android:inputType="textPassword"
+        android:hint="Password"/>
+
+    <EditText
+        android:background="@drawable/edit_text_style"
+        android:paddingLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aw1_email"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email-Id"/>
+
+    <EditText
+        android:background="@drawable/edit_text_style"
+        android:paddingLeft="15dp"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aw1_contact"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Contact No"
+        android:maxLength="10"/>
+
+    <RadioGroup
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg"
+        android:tag="Sex"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb1"
+            android:text="Male"
+            android:checked="true"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb2"
+            android:text="Female"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/aw1_next"
+        android:text="@string/next"
+        android:onClick="Next"
+        android:background="@drawable/example"/>
+
+</LinearLayout>

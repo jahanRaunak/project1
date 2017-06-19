@@ -1,0 +1,62 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/l4"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ca_iv"
+        android:src="@drawable/companyhome"
+        android:layout_margin="5dp"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/til_createacount_companyname">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/companyname"
+            android:hint="Company Name"
+            android:ems="10"
+            android:inputType="text"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_margin="10dp"
+        app:passwordToggleEnabled="true"
+        android:id="@+id/til_createacount_companypassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/company_password"
+            android:hint="Password"
+            android:ems="10"
+            android:inputType="textPassword"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:background="#00ffea"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/login_createaccount_r"
+        android:text="@string/createacount"
+        android:onClick="CreateAccount"/>
+</LinearLayout>

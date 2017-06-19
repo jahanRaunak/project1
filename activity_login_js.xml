@@ -1,0 +1,72 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clogin"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/l2"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginjs_iv"
+        android:src="@drawable/loginjs"
+        android:layout_margin="10dp"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/til_username">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_username"
+            android:hint="Username"
+            android:textColor="#fff"
+            android:ems="10"
+            android:inputType="text"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_margin="10dp"
+        app:passwordToggleEnabled="true"
+        android:id="@+id/til_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_password"
+            android:hint="Password"
+            android:ems="10"
+            android:inputType="textPassword"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:id="@+id/login_js"
+        android:background="@drawable/example"
+        android:text="@string/login"
+        android:onClick="Login"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="@drawable/example"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:id="@+id/login_newuser_js"
+        android:text="@string/newuser"
+        android:onClick="NewUser"/>
+</LinearLayout>

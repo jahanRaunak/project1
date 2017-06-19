@@ -1,0 +1,147 @@
+<LinearLayout
+    android:background="@drawable/img"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/l12"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ij_iv"
+        android:src="@drawable/invite"
+        android:layout_margin="10dp"/>
+
+    <TableLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tl1">
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ij_tv1"
+                android:text="Name         :"
+                android:textColor="#00f"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:fontFamily="monospace"/>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ij_tv2"
+                android:text="....."
+                android:textColor="#00f"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:fontFamily="monospace"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ij_tv3"
+                android:text="Experience   :"
+                android:textColor="#00f"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:fontFamily="monospace"/>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ij_tv4"
+                android:text="....."
+                android:textColor="#00f"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:fontFamily="monospace"/>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ij_tv5"
+                android:text="Mobile       :"
+                android:textColor="#00f"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:fontFamily="monospace"/>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ij_tv6"
+                android:text="....."
+                android:textColor="#00f"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:fontFamily="monospace"/>
+
+        </TableRow> <TableRow>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ij_tv7"
+            android:text="Skills       :"
+            android:textColor="#00f"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:fontFamily="monospace"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ij_tv8"
+            android:text="....."
+            android:textColor="#00f"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:fontFamily="monospace"/>
+
+    </TableRow> <TableRow>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ij_tv9"
+            android:text="Graduation   :"
+            android:textColor="#00f"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:fontFamily="monospace"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ij_tv10"
+            android:text="....."
+            android:textColor="#00f"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:fontFamily="monospace"/>
+
+    </TableRow>
+
+    </TableLayout>
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/ij_invite"
+        android:text="@string/invite"
+        android:background="@drawable/example"
+        android:onClick="invite"/>
+
+</LinearLayout>

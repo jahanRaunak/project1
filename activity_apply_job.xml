@@ -1,0 +1,169 @@
+<LinearLayout
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/l10"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aj_iv"
+        android:src="@drawable/applyjob"
+        android:layout_margin="15dp"/>
+
+    <TableLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tl1">
+        <TableRow>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/aj_tv1"
+            android:text="Company Name :"
+            android:textColor="#00f"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:fontFamily="monospace"/>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/aj_tv2"
+                android:text="....."
+                android:textColor="#00f"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:fontFamily="monospace"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/aj_tv3"
+                android:text="Eligibility  :"
+                android:textColor="#00f"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:fontFamily="monospace"/>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/aj_tv4"
+                android:text="....."
+                android:textColor="#00f"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:fontFamily="monospace"/>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/aj_tv5"
+                android:text="Experience   :"
+                android:textColor="#00f"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:fontFamily="monospace"/>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/aj_tv6"
+                android:text="....."
+                android:textColor="#00f"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:fontFamily="monospace"/>
+
+        </TableRow> <TableRow>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/aj_tv7"
+            android:text="Position     :"
+            android:textColor="#00f"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:fontFamily="monospace"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/aj_tv8"
+            android:text="....."
+            android:textColor="#00f"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:fontFamily="monospace"/>
+
+    </TableRow> <TableRow>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/aj_tv9"
+            android:text="Salary       :"
+            android:textColor="#00f"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:fontFamily="monospace"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/aj_tv10"
+            android:text="....."
+            android:textColor="#00f"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:fontFamily="monospace"/>
+
+    </TableRow> <TableRow>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/aj_tv11"
+            android:text="Location     :"
+            android:textColor="#00f"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:fontFamily="monospace"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/aj_tv12"
+            android:text="....."
+            android:textColor="#00f"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:fontFamily="monospace"/>
+
+    </TableRow>
+    </TableLayout>
+
+    <Button
+        android:background="@drawable/example"
+        android:layout_margin="20dp"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:id="@+id/aj_apply"
+        android:text="@string/apply"
+        android:onClick="apply"/>
+
+</LinearLayout>

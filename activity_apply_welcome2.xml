@@ -1,0 +1,79 @@
+<LinearLayout
+    android:background="@drawable/img"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/l6"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aw2_tv_graduation"
+        android:text="Graduation : "
+        android:layout_gravity="start"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+
+    <Spinner
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aw2_spin1" />
+
+    <EditText
+        android:textColor="#fff"
+        android:background="@drawable/edit_text_style"
+        android:paddingLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aw2_experience"
+        android:inputType="text"
+        android:hint="Experience"
+        android:ems="16"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aw2_tv_keyskills"
+        android:text="KeySkills : "
+        android:layout_gravity="start"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_margin="10dp"/>
+    <Spinner
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aw2_spin2" />
+
+    <EditText
+        android:textColor="#fff"
+        android:background="@drawable/edit_text_style"
+        android:paddingLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aw2_companyname"
+        android:inputType="text"
+        android:hint="Company Name"
+        android:ems="16"
+        android:layout_margin="10dp"/>
+
+
+    <Button
+        android:textSize="20sp"
+        android:onClick="Submit"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:id="@+id/aw2_submit"
+        android:text="@string/submit"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/example"/>
+
+</LinearLayout>
